@@ -9,9 +9,9 @@
 </template>
 
 <script>
-    import PageHeadingComponent from './PageHeadingComponent.vue'
-    import StaffListComponent from './StaffListComponent.vue'
-    import NavbarComponent from './NavbarComponent.vue'
+    import PageHeadingComponent from './components/PageHeadingComponent.vue'
+    import StaffListComponent from './components/StaffListComponent.vue'
+    import NavbarComponent from './components/NavbarComponent.vue'
     export default {
         name: 'app',
         components: {NavbarComponent, PageHeadingComponent, StaffListComponent}
